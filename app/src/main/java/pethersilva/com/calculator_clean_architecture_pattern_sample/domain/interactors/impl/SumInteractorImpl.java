@@ -1,11 +1,9 @@
 package pethersilva.com.calculator_clean_architecture_pattern_sample.domain.interactors.impl;
 
-import android.util.Log;
-
 import pethersilva.com.calculator_clean_architecture_pattern_sample.domain.executor.Executor;
 import pethersilva.com.calculator_clean_architecture_pattern_sample.domain.executor.MainThread;
-import pethersilva.com.calculator_clean_architecture_pattern_sample.domain.interactors.base.AbstractInteractor;
 import pethersilva.com.calculator_clean_architecture_pattern_sample.domain.interactors.SumInteractor;
+import pethersilva.com.calculator_clean_architecture_pattern_sample.domain.interactors.base.AbstractInteractor;
 
 public class SumInteractorImpl extends AbstractInteractor implements SumInteractor {
 
